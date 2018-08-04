@@ -9,8 +9,11 @@ class ContainerDemo extends StatelessWidget{
          title: Text('Container Widget'),
        ),
        body: Container(
-         color: Colors.orange,
-       ),
+
+         child: Container(
+           color: Colors.orange,
+         ),
+       )
      ),
    );
   }
